@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Turns out that :after on an <img> tag simply isn't supported by most browsers. (apparently it is supported by Opera, but not much else)
+Turns out that :after on an \<img\> tag simply isn't supported by most browsers. (apparently it is supported by Opera, but not much else)
 
 The best solution I can give you is to either wrap your <img> in a <div> or similar, and put the :after on that, or abandon the <img> tag entirely and use a background-image instead.
 
