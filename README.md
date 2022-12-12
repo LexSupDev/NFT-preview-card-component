@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![NFT preview card component](./images/screenshot.png)
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-C7v8B8Vhx5)
 - Live Site URL: [GitHub Pages](https://lexsupdev.github.io/NFT-preview-card-component/)
@@ -44,7 +44,7 @@ Users should be able to:
 
 Turns out that :after on an \<img\> tag simply isn't supported by most browsers. (apparently it is supported by Opera, but not much else)
 
-The best solution I can give you is to either wrap your <img> in a <div> or similar, and put the :after on that, or abandon the <img> tag entirely and use a background-image instead.
+The best solution I can give you is to either wrap your \<img\> in a \<div\> or similar, and put the :after on that, or abandon the \<img\> tag entirely and use a background-image instead.
 
 ```html
 <div class="nftCard__imageWrap">
@@ -78,7 +78,7 @@ The best solution I can give you is to either wrap your <img> in a <div> or simi
       left: calc(50% - 24px);
       background-image: url("../images/icon-view.svg");
       background-position: center;
-  }
+    }
   }
 }
 ```
